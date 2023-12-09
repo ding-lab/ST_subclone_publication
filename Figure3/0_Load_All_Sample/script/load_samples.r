@@ -11,7 +11,7 @@ genetic_clone_sheet = read_tsv(str_glue('{ANALYSIS_FOLDER}/script/OCT_genetic_cl
 
 # Load sample sheet  
 sample_sheet_url = ""
-sample_sheet = read_sheet(, sheet = 'Sample_level')
+sample_sheet = read_sheet(sample_sheet_url, sheet = 'Sample_level')
 sheet_use = sample_sheet %>% filter(LibraryName %in% genetic_clone_sheet$sample_id)
 
 # Load all data
