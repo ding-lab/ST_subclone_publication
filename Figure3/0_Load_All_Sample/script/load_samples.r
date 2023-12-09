@@ -6,7 +6,8 @@ library(googlesheets4)
 # Load subclone assignment sheet 
 gs4_deauth()
 # 2023/09/07: update to include more sample
-genetic_clone_sheet = read_tsv('/diskmnt/Datasets/Spatial_Transcriptomics/Analysis/ST_subclone/23-genomic/23_16-InferCNV_OCT_workflow//OCT_genetic_clones_2023-09-07.tsv')
+ANALYSIS_FOLDER = ""
+genetic_clone_sheet = read_tsv(str_glue('{ANALYSIS_FOLDER}/script/OCT_genetic_clones_2023-09-07.tsv'))
 
 # Load sample sheet  
 sample_sheet_url = ""
