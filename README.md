@@ -1,8 +1,8 @@
 # ST subclone manuscript
-This is the repo for the manuscript "Spatial clonal evolution and clone-specific microenvironment interactions within three-dimensional tumor structures" 
+## Overview
+This is the repo for the manuscript "Spatial clonal evolution and clone-specific microenvironment interactions within three-dimensional tumor structures"
 
----
-
+## Repo structure 
 * Figure 1. Definition of tumor spatial microregions
 * Figure 2. Genetic alteration reveals spatial clonal evolution
 * Figure 3. Genetic alteration drives transcriptional similarity in tumor microregions
