@@ -27,12 +27,8 @@ opt = parse_args(opt_parser)
 
 
 # parameters
-# Out
-# Parameter
-#piece_use = 'ht268'
 piece_use = opt$piece_use
 
-#analysis_folder='/diskmnt/Datasets/Spatial_Transcriptomics/Analysis/ST_subclone/30-PASTE2/1_PASTE2_result/4_multi_section_regions'
 analysis_folder = opt$analysis_folder
 out_path =str_glue("{analysis_folder}/out/{piece_use}")
 dir.create(out_path, recursive = T, showWarnings = F)
