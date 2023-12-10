@@ -28,8 +28,7 @@ library(Seurat)
 library(enrichplot)
 library(patchwork)
 
-out_path_analysis = str_glue('{out_path}/1A_subclone_vs_TME_plot')
-#ST_microregion_deg_list
+out_path_analysis = str_glue('{out_path}/3_Pathway')
 st_groupby = 'genetic_clone'
 
 ## -------- This GSEA workflow is generic and can be apply to many datasets -------- ##
