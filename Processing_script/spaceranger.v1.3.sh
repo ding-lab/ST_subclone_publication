@@ -1,6 +1,4 @@
 #Basic commands to run Space ranger for spatial transcriptomics Data
-# Note, both v2.0 and v2.1.1 uses the same script snippet
-
 
 #References: https://www.10xgenomics.com/support/software/space-ranger
 
@@ -34,7 +32,7 @@ mkdir -p $output_folder && cd $output_folder && spaceranger count --id="$sample"
 --image="PATH/TO/HE_IMAGE_FILE.tif" \
 --slide="SLIDE_ID" \ # e.g. "V12U06-375"
 --area="AREA_ID" \ # e.g. "B1"
---reorient-images true \
+--reorient-images \
 --localcores=32 \
 --localmem=150
 
@@ -48,7 +46,7 @@ mkdir -p $output_folder && cd $output_folder && spaceranger count --id="$sample"
 --image="PATH/TO/HE_IMAGE_FILE.tif" \
 --slide="SLIDE_ID" \ # e.g. "V12U06-375"
 --area="AREA_ID" \ # e.g. "B1"
---reorient-images true \
+--reorient-images \
 --localcores=32 \
 --localmem=150
 
