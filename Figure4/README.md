@@ -1,6 +1,9 @@
-# Scripts related to "Differential biological processes between the tumor core and leading edge" (Figure 4)
+# Scripts related to "Clonal-specific Tumor-TME interaction " (Figure 4)
 
-* `1_layer_statistics.R`: Summarize number of layers and size in each tumor microregion across the cohort (related to Fig. 4a-h)
-* `2_layer_DEG_correlation.R`: Identify gene expression correlated with tumor depths (in layers) and their associated biological pathways in each tumor sample (related to Fig. 4c-h) 
-* `3_layer_DEG_pathway_analysis.R`: Cohort-level summary of genes recurrently associated with tumor center/periphery and their associated biological pathways (related to Fig. 4f-h)
+* `1_RCTD_devolution.R`: RCTD cell type deconvolution of Visium ST data with matching snRNA-seq data (related to Fig5. b-e)
+* `2_differential_celltype_fraction.R`: Differential cell-type fraction analysis between spatial subclones (related to Fig5. b-c) 
+* `3_celltype_layer.R`: Cell-type fraction and tumor layer analysis (related to Fig5. d-e)
+* `4_border_DEG.R`: Differentially expressed genes in the tumor boundary regions (related to Fig5. f-g)
+* `5_CCI_COMMOT.py`: Spatial cell-cell interaction (CCI) analysis with [COMMOT](https://github.com/zcang/COMMOT) (related to Fig5. h-i)
+* `6_CCI_border.R`: CCI enriched in the tumor boundary regions (related to Fig5. h-i)
 

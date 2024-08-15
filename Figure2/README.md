@@ -1,4 +1,4 @@
-# Scripts related to "Spatial genomic analysis reveals focal clonal evolution between tumor microregions" (Figure 2)
+# Scripts related to "Focal clonal evolution in microregions" (Figure 2)
 
 * `1_inferCNV_run.R`: Run InferCNV on Visium ST data (related to Fig. 2a-g) 
 * `2_CalicoST_run.md`: Run CalicoST on Visiium ST data (related to Fig. 2a-g)
